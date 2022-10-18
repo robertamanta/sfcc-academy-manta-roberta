@@ -1,0 +1,20 @@
+
+<isinclude url="${URLUtils.https('Product-Show')}"/>
+
+${pdict.product}
+<p>
+<isset name="sessionVar" value="${false}" scope = "session"/>
+
+${session.custom.sessionVar}
+</p>
+<p>
+<isset name="requestVar" value="${1}" scope = "request"/>
+
+${request.custom.requestVar + 1}
+</p>
+
+<p>
+<isset name="pageVar" value="${3}" scope = "page"/>
+
+${pageVar}
+</p>
