@@ -1,0 +1,10 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/threshold.css');
+</isscript>
+<div class="container">
+    <div class="row col-md-8 message-threshold">
+        ${Resource.msgf('msg.cart.threshold','cart',null,pdict.thresholdValue)}
+    </div>
+</div>
+
