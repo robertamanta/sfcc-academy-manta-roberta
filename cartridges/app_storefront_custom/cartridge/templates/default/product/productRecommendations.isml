@@ -1,0 +1,9 @@
+<div class="row product-grid">
+<isloop items="${pdict.productSearch.productSearchHits}" var="product" end=3>
+    <div class="col-sm">
+        <isobject object="${product.productSearchHit}" view="searchhit">
+            <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.productID, 'swatches', true, 'ratings', true)}" />
+        </isobject>
+    </div>
+</isloop>
+</div>
