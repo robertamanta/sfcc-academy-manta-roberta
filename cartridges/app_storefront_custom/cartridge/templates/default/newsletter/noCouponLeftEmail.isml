@@ -1,0 +1,3 @@
+<div>
+${Resource.msgf('email.message.nocouponleft', 'newsletter', null,pdict.name)}
+</div>

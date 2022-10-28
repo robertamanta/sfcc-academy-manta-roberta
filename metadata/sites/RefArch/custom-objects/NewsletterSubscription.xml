@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <custom-objects xmlns="http://www.demandware.com/xml/impex/customobject/2006-10-31">
-    <custom-object type-id="NewsletterSubscription" object-id="ana@gmail.com">
-        <object-attribute attribute-id="firstName">Ana</object-attribute>
-        <object-attribute attribute-id="lastName">Popescu</object-attribute>
-    </custom-object>
-
-    <custom-object type-id="NewsletterSubscription" object-id="asas@hdhdj.com">
-        <object-attribute attribute-id="lastName">jsjaj</object-attribute>
-    </custom-object>
-
-    <custom-object type-id="NewsletterSubscription" object-id="roberta@gmail.com">
+    <custom-object type-id="NewsletterSubscription" object-id="a07@gmail.com">
         <object-attribute attribute-id="firstName">Roberta</object-attribute>
-        <object-attribute attribute-id="lastName">manta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="b07@gmail.com">
+        <object-attribute attribute-id="firstName">Roberta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="c07@gmail.com">
+        <object-attribute attribute-id="firstName">Roberta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="gfh.manta07@gmail.com">
+        <object-attribute attribute-id="firstName">Roberta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="h07@gmail.com">
+        <object-attribute attribute-id="firstName">Roberta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="m07@gmail.com">
+        <object-attribute attribute-id="firstName">Roberta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="roberta.manta07@gmail.com">
+        <object-attribute attribute-id="firstName">Roberta</object-attribute>
+        <object-attribute attribute-id="lastName">Manta</object-attribute>
     </custom-object>
 
 </custom-objects>

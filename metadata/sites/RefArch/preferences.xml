@@ -58,7 +58,9 @@
     </standard-preferences>
     <custom-preferences>
         <all-instances/>
-        <development/>
+        <development>
+            <preference preference-id="customerServiceEmail">no-reply@saleforce.com</preference>
+        </development>
         <staging/>
         <production/>
     </custom-preferences>

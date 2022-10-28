@@ -1,0 +1,7 @@
+<div>
+<h1>${Resource.msgf('email.message.firstline', 'newsletter', null,pdict.name)}</h1>
+</div>
+
+<div>
+${Resource.msg('email.message.secondline', 'newsletter', null)}
+</div>

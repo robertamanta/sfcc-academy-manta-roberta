@@ -4852,6 +4852,13 @@
                     </value-definition>
                 </value-definitions>
             </attribute-definition>
+            <attribute-definition attribute-id="thresholdValue">
+                <display-name xml:lang="x-default">Threshold value</display-name>
+                <type>int</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <default-value>200</default-value>
+            </attribute-definition>
         </custom-attribute-definitions>
         <group-definitions>
             <attribute-group group-id="Storefront Configs">
@@ -4861,6 +4868,7 @@
                 <attribute attribute-id="countryCode"/>
                 <attribute attribute-id="customerServiceEmail"/>
                 <attribute attribute-id="mapAPI"/>
+                <attribute attribute-id="thresholdValue"/>
             </attribute-group>
         </group-definitions>
     </type-extension>
