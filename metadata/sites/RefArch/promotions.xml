@@ -56,6 +56,20 @@
         </customer-groups>
     </campaign>
 
+    <campaign campaign-id="Newsletter Campaign">
+        <description>Campaign created for newsletter subscription</description>
+        <enabled-flag>true</enabled-flag>
+        <campaign-scope>
+            <applicable-online/>
+        </campaign-scope>
+        <customer-groups match-mode="any">
+            <customer-group group-id="Everyone"/>
+        </customer-groups>
+        <coupons>
+            <coupon coupon-id="20newsletter"/>
+        </coupons>
+    </campaign>
+
     <campaign campaign-id="mens-clothing-suits">
         <description>This is a campaign that displays a landing banner, with a 25% discount on all suits and default sorting rule of top selling suits.</description>
         <enabled-flag>false</enabled-flag>
@@ -880,6 +894,32 @@
             </simple-discount>
             <max-applications>1</max-applications>
         </product-promotion-rule>
+    </promotion>
+
+    <promotion promotion-id="20usdOffNewsletter">
+        <enabled-flag>true</enabled-flag>
+        <archived-flag>false</archived-flag>
+        <searchable-flag>false</searchable-flag>
+        <refinable-flag>false</refinable-flag>
+        <prevent-requalifying-flag>false</prevent-requalifying-flag>
+        <prorate-across-eligible-items-flag>false</prorate-across-eligible-items-flag>
+        <exclusivity>class</exclusivity>
+        <name xml:lang="x-default">20 USD discount on subscribe to newsletter</name>
+        <callout-msg xml:lang="x-default">$20 off to each order</callout-msg>
+        <details xml:lang="x-default">$20 off to each order</details>
+        <tags>
+            <tag>20usdoff</tag>
+        </tags>
+        <order-promotion-rule>
+            <discount-only-qualifying-products>false</discount-only-qualifying-products>
+            <discounts condition-type="product-quantity">
+                <discount>
+                    <threshold>1</threshold>
+                    <amount>20.0</amount>
+                </discount>
+            </discounts>
+            <exclude-discounted-products>false</exclude-discounted-products>
+        </order-promotion-rule>
     </promotion>
 
     <promotion promotion-id="25USD-off-dresses">
@@ -2812,6 +2852,14 @@
     <promotion-campaign-assignment promotion-id="20off-tvs" campaign-id="electronics-promotions">
         <qualifiers match-mode="any">
             <customer-groups/>
+        </qualifiers>
+    </promotion-campaign-assignment>
+
+    <promotion-campaign-assignment promotion-id="20usdOffNewsletter" campaign-id="Newsletter Campaign">
+        <qualifiers match-mode="all">
+            <customer-groups/>
+            <source-codes/>
+            <coupons/>
         </qualifiers>
     </promotion-campaign-assignment>
 

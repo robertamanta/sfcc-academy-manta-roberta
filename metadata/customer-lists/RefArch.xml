@@ -15,6 +15,37 @@
         <max-password-reset-token-age>30</max-password-reset-token-age>
     </header>
 
+    <customer customer-no="00000002">
+        <credentials>
+            <login>roberta.manta07@gmail.com</login>
+            <password encrypted="true" encryptionScheme="scrypt">$s0$b0401$qiUVY9xvSnrdA6tFvs37oQ==$M24wkFEYi8eoC7SpgklJgaqtSR5Og8kwKfKZkrAbO4E=</password>
+            <enabled-flag>true</enabled-flag>
+            <password-question/>
+            <password-answer/>
+        </credentials>
+        <profile>
+            <salutation/>
+            <title/>
+            <first-name/>
+            <second-name/>
+            <last-name>Manta</last-name>
+            <suffix/>
+            <company-name/>
+            <job-title/>
+            <email>roberta.manta07@gmail.com</email>
+            <phone-home/>
+            <phone-business/>
+            <phone-mobile/>
+            <fax/>
+            <gender>0</gender>
+            <creation-date>2022-10-25T12:43:15.000Z</creation-date>
+            <last-login-time>2022-10-27T12:46:51.000Z</last-login-time>
+            <last-visit-time>2022-10-27T12:46:51.000Z</last-visit-time>
+            <preferred-locale/>
+        </profile>
+        <note/>
+    </customer>
+
     <customer customer-no="D00000001">
         <credentials>
             <login>testuser1@demandware.com</login>
